@@ -1,12 +1,12 @@
 <div class="flex">
-  <div class="w-[20%]">
+  <div class="w-[20%] fixed top-0 left-0">
     <app-sidebar></app-sidebar>
   </div>
   <div class="w-[80%] px-6">
-      <div class="w-full h-[10%]">
+      <div class="w-[80%] h-[10%]">
         <app-topbar></app-topbar>
       </div>
-      <div class="w-full h-[90%]">
+      <div class="w-[80%] h-[90%] absolute right-0 top-[10%]">
         <router-outlet></router-outlet>
       </div>
   </div>

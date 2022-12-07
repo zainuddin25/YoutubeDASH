@@ -10,7 +10,8 @@ module.exports = {
         'grey' : '#565656',
         'orange-secondary' : '#fff1d8',
         'pink-secondary' : '#ffeee7',
-        'green-secondary' : '#cbf2d7'
+        'green-secondary' : '#cbf2d7',
+        'red-primary' : '#FF0000'
       }
     },
   },

@@ -9,6 +9,7 @@ import { TopbarComponent } from './components/topbar/topbar.component';
 import { ContentDashboardComponent } from './components/content-dashboard/content-dashboard.component';
 import { CardDashboardComponent } from './components/card-dashboard/card-dashboard.component';
 import { VideosComponent } from './pages/videos/videos.component';
+import { VideoListComponent } from './components/video-list/video-list.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { VideosComponent } from './pages/videos/videos.component';
     TopbarComponent,
     ContentDashboardComponent,
     CardDashboardComponent,
-    VideosComponent
+    VideosComponent,
+    VideoListComponent,
   ],
   imports: [
     BrowserModule,
