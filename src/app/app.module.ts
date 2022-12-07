@@ -8,6 +8,7 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { TopbarComponent } from './components/topbar/topbar.component';
 import { ContentDashboardComponent } from './components/content-dashboard/content-dashboard.component';
 import { CardDashboardComponent } from './components/card-dashboard/card-dashboard.component';
+import { VideosComponent } from './pages/videos/videos.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CardDashboardComponent } from './components/card-dashboard/card-dashboa
     SidebarComponent,
     TopbarComponent,
     ContentDashboardComponent,
-    CardDashboardComponent
+    CardDashboardComponent,
+    VideosComponent
   ],
   imports: [
     BrowserModule,

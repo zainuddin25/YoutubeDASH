@@ -5,16 +5,16 @@
     <div class="w-full h-[65%]">
         <ul class="pt-10">
             <li class="px-6 py-2">
-                <div class="w-full bg-black px-3 py-3 rounded-lg flex items-center">
+                <a [routerLink]='dashboard' routerLinkActive="router-link-active" class="w-full rounded-lg flex items-center text-grey p-4">
                     <img class="w-5 mr-2" src="../../../assets/icon-dashboard.png" />
-                    <h1 class="text-white text-sm">Dashboard</h1>
-                </div>
+                    <h1 class="text-sm">Dashboard</h1>
+                </a>
             </li>
-            <li class="px-6">
-                <div class="w-full px-3 py-2 rounded-lg flex items-center">
+            <li class="px-6 py-2">
+                <a [routerLink]='videos' routerLinkActive="router-link-active" class="w-full rounded-lg flex items-center text-grey p-4">
                     <img class="w-5 mr-2" src="../../../assets/icon-play.png" />
-                    <h1 class="text-grey text-sm">Videos</h1>
-                </div>
+                    <h1 class="text-sm">Videos</h1>
+                </a>
             </li>
             <li class="px-6">
                 <div class="w-full px-3 py-2 rounded-lg flex items-center">
